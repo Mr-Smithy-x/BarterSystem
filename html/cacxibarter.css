@@ -1,0 +1,62 @@
+body { background-color: #BE754E;
+background-image: url(background.jpg);
+      
+background-position: center center;
+background-repeat: no-repeat;
+background-attachment:fixed;
+background-size:cover; 
+color: #000000;
+	  font-family: Times New Roman, Georgia, sans-serif;}
+#wrapper { width: 80%;
+          margin-right: auto;
+		  margin-left: auto;
+		  min-width: 700px;
+		  max-width: 1024px;
+background-color: transparent;
+		  color: #000000;
+ 	  	  border-radius: 10px;  
+ 	  	  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+Border-spacing: 0;
+padding:1em;
+		  color: #000000;
+}
+
+header { background-color: transparent;
+       color: #FFCC99;
+	   background-image: url(cacxibarter1.png);
+	   background-position: center center;
+	   background-repeat: no-repeat;
+	background-size:auto;
+height:230px;}
+
+h1 { text-align: center;
+     font-size: 3em;
+	color: #000000;
+     padding: 10px;
+	 line-height: 150%;
+	 text-shadow: 3px 3px 3px #CCCCCC;
+}
+
+h2 {text-align:center;}
+
+main { margin-left: 180px;
+      padding-right: 20px;
+	  padding-bottom: 20px;}
+
+
+a:link { color: #E0B9B9; }
+a:visited { color: #990000; }
+a:hover { color: #CCCCCC; }
+a:active { color: #0000FF;}
+
+
+
+#footer { font-size: 0.80em;
+       font-style: italic;
+	text-align:center;	   
+	padding-top: 10px;
+	clear:both; }
+
+text-align: center; }
+header, main, footer { display: block; }
+
