@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91516D081AF52DB5004E7508 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D071AF52DB5004E7508 /* main.m */; };
+		91516D0B1AF52DB5004E7508 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D0A1AF52DB5004E7508 /* AppDelegate.m */; };
+		91516D0E1AF52DB5004E7508 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D0D1AF52DB5004E7508 /* ViewController.m */; };
+		91516D111AF52DB5004E7508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91516D0F1AF52DB5004E7508 /* Main.storyboard */; };
+		91516D131AF52DB5004E7508 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91516D121AF52DB5004E7508 /* Images.xcassets */; };
+		91516D161AF52DB5004E7508 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91516D141AF52DB5004E7508 /* LaunchScreen.xib */; };
+		91516D221AF52DB5004E7508 /* cacxiBarterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D211AF52DB5004E7508 /* cacxiBarterTests.m */; };
+		91516D2D1AF52F00004E7508 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D2C1AF52F00004E7508 /* RegisterViewController.m */; };
+		91516D301AF52F98004E7508 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D2F1AF52F98004E7508 /* LoginViewController.m */; };
+		91516D321AF53002004E7508 /* CacxiBarter1.png in Resources */ = {isa = PBXBuildFile; fileRef = 91516D311AF53002004E7508 /* CacxiBarter1.png */; };
+		91516D351AF552B0004E7508 /* UserLoginedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D341AF552B0004E7508 /* UserLoginedViewController.m */; };
+		91516D381AF55B1F004E7508 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D371AF55B1F004E7508 /* SearchViewController.m */; };
+		91516D3B1AF55B3F004E7508 /* AddItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D3A1AF55B3F004E7508 /* AddItemViewController.m */; };
+		91516D3E1AF55B64004E7508 /* MyStuffViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D3D1AF55B64004E7508 /* MyStuffViewController.m */; };
+		91516D411AF55B8B004E7508 /* MycontactedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91516D401AF55B8B004E7508 /* MycontactedViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91516D1C1AF52DB5004E7508 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91516CFA1AF52DB5004E7508 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91516D011AF52DB5004E7508;
+			remoteInfo = cacxiBarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91516D021AF52DB5004E7508 /* cacxiBarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cacxiBarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91516D061AF52DB5004E7508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91516D071AF52DB5004E7508 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91516D091AF52DB5004E7508 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		91516D0A1AF52DB5004E7508 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		91516D0C1AF52DB5004E7508 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		91516D0D1AF52DB5004E7508 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		91516D101AF52DB5004E7508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		91516D121AF52DB5004E7508 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91516D151AF52DB5004E7508 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		91516D1B1AF52DB5004E7508 /* cacxiBarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cacxiBarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91516D201AF52DB5004E7508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91516D211AF52DB5004E7508 /* cacxiBarterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cacxiBarterTests.m; sourceTree = "<group>"; };
+		91516D2B1AF52F00004E7508 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
+		91516D2C1AF52F00004E7508 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
+		91516D2E1AF52F98004E7508 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		91516D2F1AF52F98004E7508 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		91516D311AF53002004E7508 /* CacxiBarter1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CacxiBarter1.png; sourceTree = "<group>"; };
+		91516D331AF552B0004E7508 /* UserLoginedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserLoginedViewController.h; sourceTree = "<group>"; };
+		91516D341AF552B0004E7508 /* UserLoginedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserLoginedViewController.m; sourceTree = "<group>"; };
+		91516D361AF55B1F004E7508 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		91516D371AF55B1F004E7508 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		91516D391AF55B3F004E7508 /* AddItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddItemViewController.h; sourceTree = "<group>"; };
+		91516D3A1AF55B3F004E7508 /* AddItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddItemViewController.m; sourceTree = "<group>"; };
+		91516D3C1AF55B64004E7508 /* MyStuffViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyStuffViewController.h; sourceTree = "<group>"; };
+		91516D3D1AF55B64004E7508 /* MyStuffViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyStuffViewController.m; sourceTree = "<group>"; };
+		91516D3F1AF55B8B004E7508 /* MycontactedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MycontactedViewController.h; sourceTree = "<group>"; };
+		91516D401AF55B8B004E7508 /* MycontactedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MycontactedViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91516CFF1AF52DB5004E7508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91516D181AF52DB5004E7508 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91516CF91AF52DB5004E7508 = {
+			isa = PBXGroup;
+			children = (
+				91516D041AF52DB5004E7508 /* cacxiBarter */,
+				91516D1E1AF52DB5004E7508 /* cacxiBarterTests */,
+				91516D031AF52DB5004E7508 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91516D031AF52DB5004E7508 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91516D021AF52DB5004E7508 /* cacxiBarter.app */,
+				91516D1B1AF52DB5004E7508 /* cacxiBarterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91516D041AF52DB5004E7508 /* cacxiBarter */ = {
+			isa = PBXGroup;
+			children = (
+				91516D091AF52DB5004E7508 /* AppDelegate.h */,
+				91516D0A1AF52DB5004E7508 /* AppDelegate.m */,
+				91516D0C1AF52DB5004E7508 /* ViewController.h */,
+				91516D0D1AF52DB5004E7508 /* ViewController.m */,
+				91516D0F1AF52DB5004E7508 /* Main.storyboard */,
+				91516D121AF52DB5004E7508 /* Images.xcassets */,
+				91516D141AF52DB5004E7508 /* LaunchScreen.xib */,
+				91516D051AF52DB5004E7508 /* Supporting Files */,
+				91516D2B1AF52F00004E7508 /* RegisterViewController.h */,
+				91516D2C1AF52F00004E7508 /* RegisterViewController.m */,
+				91516D2E1AF52F98004E7508 /* LoginViewController.h */,
+				91516D2F1AF52F98004E7508 /* LoginViewController.m */,
+				91516D331AF552B0004E7508 /* UserLoginedViewController.h */,
+				91516D341AF552B0004E7508 /* UserLoginedViewController.m */,
+				91516D361AF55B1F004E7508 /* SearchViewController.h */,
+				91516D371AF55B1F004E7508 /* SearchViewController.m */,
+				91516D391AF55B3F004E7508 /* AddItemViewController.h */,
+				91516D3A1AF55B3F004E7508 /* AddItemViewController.m */,
+				91516D3C1AF55B64004E7508 /* MyStuffViewController.h */,
+				91516D3D1AF55B64004E7508 /* MyStuffViewController.m */,
+				91516D3F1AF55B8B004E7508 /* MycontactedViewController.h */,
+				91516D401AF55B8B004E7508 /* MycontactedViewController.m */,
+			);
+			path = cacxiBarter;
+			sourceTree = "<group>";
+		};
+		91516D051AF52DB5004E7508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91516D311AF53002004E7508 /* CacxiBarter1.png */,
+				91516D061AF52DB5004E7508 /* Info.plist */,
+				91516D071AF52DB5004E7508 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		91516D1E1AF52DB5004E7508 /* cacxiBarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				91516D211AF52DB5004E7508 /* cacxiBarterTests.m */,
+				91516D1F1AF52DB5004E7508 /* Supporting Files */,
+			);
+			path = cacxiBarterTests;
+			sourceTree = "<group>";
+		};
+		91516D1F1AF52DB5004E7508 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91516D201AF52DB5004E7508 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91516D011AF52DB5004E7508 /* cacxiBarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91516D251AF52DB5004E7508 /* Build configuration list for PBXNativeTarget "cacxiBarter" */;
+			buildPhases = (
+				91516CFE1AF52DB5004E7508 /* Sources */,
+				91516CFF1AF52DB5004E7508 /* Frameworks */,
+				91516D001AF52DB5004E7508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cacxiBarter;
+			productName = cacxiBarter;
+			productReference = 91516D021AF52DB5004E7508 /* cacxiBarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91516D1A1AF52DB5004E7508 /* cacxiBarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91516D281AF52DB5004E7508 /* Build configuration list for PBXNativeTarget "cacxiBarterTests" */;
+			buildPhases = (
+				91516D171AF52DB5004E7508 /* Sources */,
+				91516D181AF52DB5004E7508 /* Frameworks */,
+				91516D191AF52DB5004E7508 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91516D1D1AF52DB5004E7508 /* PBXTargetDependency */,
+			);
+			name = cacxiBarterTests;
+			productName = cacxiBarterTests;
+			productReference = 91516D1B1AF52DB5004E7508 /* cacxiBarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91516CFA1AF52DB5004E7508 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = XbinZhao;
+				TargetAttributes = {
+					91516D011AF52DB5004E7508 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					91516D1A1AF52DB5004E7508 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 91516D011AF52DB5004E7508;
+					};
+				};
+			};
+			buildConfigurationList = 91516CFD1AF52DB5004E7508 /* Build configuration list for PBXProject "cacxiBarter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91516CF91AF52DB5004E7508;
+			productRefGroup = 91516D031AF52DB5004E7508 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91516D011AF52DB5004E7508 /* cacxiBarter */,
+				91516D1A1AF52DB5004E7508 /* cacxiBarterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91516D001AF52DB5004E7508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91516D321AF53002004E7508 /* CacxiBarter1.png in Resources */,
+				91516D111AF52DB5004E7508 /* Main.storyboard in Resources */,
+				91516D161AF52DB5004E7508 /* LaunchScreen.xib in Resources */,
+				91516D131AF52DB5004E7508 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91516D191AF52DB5004E7508 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91516CFE1AF52DB5004E7508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91516D411AF55B8B004E7508 /* MycontactedViewController.m in Sources */,
+				91516D0E1AF52DB5004E7508 /* ViewController.m in Sources */,
+				91516D3B1AF55B3F004E7508 /* AddItemViewController.m in Sources */,
+				91516D0B1AF52DB5004E7508 /* AppDelegate.m in Sources */,
+				91516D081AF52DB5004E7508 /* main.m in Sources */,
+				91516D3E1AF55B64004E7508 /* MyStuffViewController.m in Sources */,
+				91516D2D1AF52F00004E7508 /* RegisterViewController.m in Sources */,
+				91516D351AF552B0004E7508 /* UserLoginedViewController.m in Sources */,
+				91516D301AF52F98004E7508 /* LoginViewController.m in Sources */,
+				91516D381AF55B1F004E7508 /* SearchViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91516D171AF52DB5004E7508 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91516D221AF52DB5004E7508 /* cacxiBarterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91516D1D1AF52DB5004E7508 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91516D011AF52DB5004E7508 /* cacxiBarter */;
+			targetProxy = 91516D1C1AF52DB5004E7508 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91516D0F1AF52DB5004E7508 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91516D101AF52DB5004E7508 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		91516D141AF52DB5004E7508 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91516D151AF52DB5004E7508 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91516D231AF52DB5004E7508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91516D241AF52DB5004E7508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91516D261AF52DB5004E7508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cacxiBarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91516D271AF52DB5004E7508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cacxiBarter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		91516D291AF52DB5004E7508 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cacxiBarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cacxiBarter.app/cacxiBarter";
+			};
+			name = Debug;
+		};
+		91516D2A1AF52DB5004E7508 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = cacxiBarterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cacxiBarter.app/cacxiBarter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91516CFD1AF52DB5004E7508 /* Build configuration list for PBXProject "cacxiBarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91516D231AF52DB5004E7508 /* Debug */,
+				91516D241AF52DB5004E7508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91516D251AF52DB5004E7508 /* Build configuration list for PBXNativeTarget "cacxiBarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91516D261AF52DB5004E7508 /* Debug */,
+				91516D271AF52DB5004E7508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91516D281AF52DB5004E7508 /* Build configuration list for PBXNativeTarget "cacxiBarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91516D291AF52DB5004E7508 /* Debug */,
+				91516D2A1AF52DB5004E7508 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91516CFA1AF52DB5004E7508 /* Project object */;
+}

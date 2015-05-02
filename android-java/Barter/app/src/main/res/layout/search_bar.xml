@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@color/md_light_blue_700"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <View
+        android:background="@color/md_light_blue_700"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"/>
+<LinearLayout
+    android:background="@color/md_light_blue_500"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content" android:padding="16dp" >
+
+    <EditText
+
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/search_text"
+        android:gravity="bottom"
+        android:hint="SEARCH"
+        android:layout_weight="1"
+        android:layout_marginRight="16dp" />
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.hkm.ui.processbutton.FlatButton"
+        android:id="@+id/search_btn"
+        android:layout_weight="2"
+        android:text="SEARCH"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
+
+</LinearLayout>
